@@ -1,6 +1,9 @@
 export function Video(){
 
+    //flex-1 - demonstra que o esse componente poderá variar tamanho de acordo com o tamanho da página 
     return(
-        <h1>Video</h1>
+        <div className="flex-1">
+            Video
+        </div>
     )
 }
