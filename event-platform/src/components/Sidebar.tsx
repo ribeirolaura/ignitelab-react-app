@@ -2,17 +2,6 @@ import { gql, useQuery } from "@apollo/client";
 import { Lesson } from "./Lesson";
 
 
-const GET_LESSONS_QUERY = gql`
-query MyQuery {
-  lessons(orderBy: availableAt_ASC, stage: PUBLISHED) {
-    id
-    title
-    slug
-    availableAt
-    lessonType
-  }
-}`
-
 //cria tipagem do retorno da QUERY 
 
 interface GetLessonsQueryResponse {
