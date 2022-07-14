@@ -23,6 +23,7 @@ interface GetLessonBySlugResponse{
     }
 }
 
+
 interface VideoProps {
   lessonSlug: string;
 }
@@ -84,8 +85,7 @@ export function Video(props: VideoProps) {
             </a>
             <a
               href=""
-              className="p-4 text-sm border border-blue-500 text-blue-500
-                     flex items-center rounded font-bold uppercase gap-2 justify-center hover:text-gray-900 hover:bg-blue-500"
+              className="p-4 text-sm border border-blue-500 text-blue-500 flex items-center rounded font-bold uppercase gap-2 justify-center hover:text-gray-900 hover:bg-blue-500"
             >
               <Lightning size={24} />
               Acesse o desafio
